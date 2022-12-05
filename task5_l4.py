@@ -35,4 +35,4 @@ c = list(map(sum, zip(list1 + [0, ] * (x := len(list2) - len(list1)), list2 + [0
 print(initial_for_list1)
 print(initial_for_list2)
 print('-' * 30)
-print (f'{c[0]} * x ** 3 + {c[1]} * x + {c[2]}')
+print (f'{c[0]} * x ** 2 + {c[1]} * x + {c[2]}')
